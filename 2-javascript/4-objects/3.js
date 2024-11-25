@@ -1,0 +1,23 @@
+// constructor function
+
+function Dog(name, breed, age, weight) {
+  // this = {};
+
+  this.name = name;
+  this.breed = breed;
+  this.age = age;
+  this.weight = weight;
+
+  this.eat = function () {
+    console.log(`${this.name}: Chomp!`);
+  };
+
+  this.bark = function () {
+    console.log(`${this.name}: Woof!`);
+  };
+
+  //   return this;
+}
+
+const dog = new Dog("Marley", "Chocolate Lab", 3, 30);
+console.log(dog);
