@@ -21,3 +21,13 @@ function Dog(name, breed, age, weight) {
 
 const dog = new Dog("Marley", "Chocolate Lab", 3, 30);
 console.log(dog);
+/*
+Dog {
+  name: 'Marley',
+  breed: 'Chocolate Lab',
+  age: 3,
+  weight: 30,
+  eat: [Function (anonymous)],
+  bark: [Function (anonymous)]
+}
+*/

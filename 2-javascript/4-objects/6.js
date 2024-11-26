@@ -1,14 +1,14 @@
 // functions are objects!
 
 function add(number1, number2) {
-  return number1, number2;
+  return number1 + number2;
 }
 
 const n = add;
-// console.log(n(2, 2));
+// console.log(n(2, 2)); // 4
 
 // number of parameters
-// console.log(add.length);
+// console.log(add.length); // 2
 
 function Programmer(name) {
   this.name = name;
@@ -18,8 +18,8 @@ function Programmer(name) {
   };
 }
 
-// console.log(Programmer.length);
-// console.log(Programmer.constructor);
+// console.log(Programmer.length); // 1
+// console.log(Programmer.constructor); // [Function: Function]
 
 // const Programmer = new Function(
 //   "name",
@@ -31,4 +31,4 @@ function Programmer(name) {
 // );
 
 const newProgrammer = new Programmer("Denis");
-newProgrammer.writeCode();
+newProgrammer.writeCode(); // Coding in JavaScript

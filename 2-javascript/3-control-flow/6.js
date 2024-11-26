@@ -5,5 +5,5 @@ let course = {
 };
 
 for (const key in course) {
-  console.log(course[key]);
+  console.log(course[key]); // JavaScript for beginners, 3, 7
 }

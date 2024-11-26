@@ -11,5 +11,5 @@ const dog = {
   },
 };
 
-dog.eat();
-dog.bark();
+dog.eat(); // Chomp!
+dog.bark(); // Woof!

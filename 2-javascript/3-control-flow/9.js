@@ -2,7 +2,7 @@
 //   if (i % 2 === 0) {
 //     continue;
 //   }
-//   console.log(i);
+//   console.log(i); // 1, 3, 5, 7, 9
 // }
 
 // let i = 0;
@@ -11,7 +11,7 @@
 //     i++;
 //     continue;
 //   }
-//   console.log(i);
+//   console.log(i); // 1, 3, 5, 7, 9
 //   i++;
 // }
 
@@ -21,7 +21,7 @@
 //     j++;
 //     continue;
 //   }
-//   console.log(j);
+//   console.log(j); // 1, 3, 5, 7, 9
 //   j++;
 // } while (j < 10);
 
@@ -30,7 +30,7 @@
 //   if (object[key] % 2 === 0) {
 //     continue;
 //   }
-//   console.log(object[key]);
+//   console.log(object[key]); // 1, 3, 5, 7, 9
 // }
 
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -38,5 +38,5 @@ for (const element of array) {
   if (element % 2 === 0) {
     continue;
   }
-  console.log(element);
+  console.log(element); // 1, 3, 5, 7, 9
 }

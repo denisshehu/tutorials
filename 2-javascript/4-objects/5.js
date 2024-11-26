@@ -2,7 +2,7 @@ const person = {
   name: "Denis",
 };
 
-console.log(person.constructor);
+console.log(person.constructor); // [Function: Object]
 
 // equivalent
 // let newObject = {};

@@ -11,6 +11,6 @@ function add(number1, number2) {
   let sum = number1 + number2;
 }
 
-sayHi("Denis");
-console.log(multiply(2, 2));
-console.log(add(3, 3)); // undefined by default
+sayHi("Denis"); // Hi Denis!
+console.log(multiply(2, 2)); // 4
+console.log(add(3, 3)); // undefined

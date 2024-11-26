@@ -17,6 +17,6 @@ const employee = employees.find(function (e) {
   return e.name === "Denis";
 });
 
-console.log(employee);
+console.log(employee); // { id: 1, name: 'Denis' }
 
 // also .findIndex()

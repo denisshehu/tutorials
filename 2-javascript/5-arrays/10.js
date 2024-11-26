@@ -1,10 +1,10 @@
 const numbers = [6, 4, 8, 2, 5, 3, 1];
 numbers.sort();
-console.log(numbers);
+console.log(numbers); // [ 1, 2, 3, 4, 5, 6, 8 ]
 
 const letters = ["a", "b", "c", "d"];
 letters.reverse();
-console.log(letters);
+console.log(letters); // [ 'd', 'c', 'b', 'a' ]
 
 const employees = [
   { id: 1, name: "Denis" },
@@ -26,3 +26,10 @@ employees.sort((e1, e2) => {
 });
 
 console.log(employees);
+/*
+[
+  { id: 2, name: 'Dea' },
+  { id: 1, name: 'Denis' },
+  { id: 3, name: 'Kiki' }
+]
+*/
