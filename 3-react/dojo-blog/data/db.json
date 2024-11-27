@@ -4,19 +4,19 @@
       "title": "First blog",
       "body": "Content of the first blog.",
       "author": "Denis",
-      "id": 1
+      "id": "1"
     },
     {
       "title": "Second blog",
       "body": "Content of the second blog.",
       "author": "Dea",
-      "id": 2
+      "id": "2"
     },
     {
       "title": "Third blog",
       "body": "Content of the third blog.",
       "author": "Kiki",
-      "id": 3
+      "id": "3"
     }
   ]
 }
