@@ -107,3 +107,13 @@ Services &rarr; MongoDB Server (MongoDB) must be running.
 `.updateOne({ _id: id }, { $push: { propertyArray: value } })`: add `value` to `propertyArray`, which is an array, for the document with ID `id`
 
 `.updateOne({ _id: id }, { $push: { propertyArray: { $each: [value1, value2] } } })`: add `value1` and `value2` to `propertyArray`, which is an array, for the document with ID `id`
+
+#### 24
+
+`.find().explain("executionStats")`: get the execution statistics of the query (`nReturned`, `docsExamined`)
+
+`.createIndex({ property: value })`: create index
+
+`.getIndexes()`: get all indexes
+
+`.dropIndex({ property: value })`: delete index
