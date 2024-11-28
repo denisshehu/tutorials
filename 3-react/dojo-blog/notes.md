@@ -10,4 +10,6 @@ How to enable Emmet: Settings &rarr; Emmet: Include Languages &rarr; Add Item &r
 
 `node run start`
 
+`npm i react-router-dom`
+
 `npx json-server --watch <pathToJsonFile> --port <portNumber>`
