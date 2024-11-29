@@ -9,3 +9,5 @@
 [MongoDB tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA&si=5_ZF3z9G_eOYo_FA)
 
 [MERN Stack tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&si=-0I0VWmvrKeYdLxo)
+
+[MERN Stack authentication with JWT](https://youtube.com/playlist?list=PL4cUxeGkcC9g8OhpOZxNdhXggFz2lOuCT&si=FA6uqO2BzU967ngU)
